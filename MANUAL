@@ -1,0 +1,36 @@
+A versatile Python tool with a graphical interface for file handling and basic data analysis. 
+Perform tasks like saving files, executing scripts, and more. Simple and user-friendly.
+
+Instructions:
+
+1. Ensure you have the required libraries installed: os, subprocess, tkinter, tkinter.messagebox, filedialog, ttk, pandas, openpyxl, PIL.
+
+2. Make sure to have an image file named "Obrazek1.png" in the same directory as this script for GUI rendering.
+    Change your file directory(Obrazek1.png) in 91 line - obrazek = tk.PhotoImage(file=os.path.abspath("YOUR_FILE_DIRECTORY\Obrazek1.png"))
+
+3. Run the Python script.
+
+Features:
+
+Main Menu:
+
+Click on buttons to navigate between different functionalities:
+"Baza danych" - Database operations.
+"Uruchom plik" - Execute a file.
+"Analiza danych" - Data analysis.
+Database Operations:
+
+Enter a document name and select a folder to save an Excel file.
+Click "Zapisz plik" to save the file.
+Click "Wróć do strony głównej" to return to the main menu.
+Execute a File:
+
+Enter the name of the file you want to run (without extension).
+Click "Uruchom plik" to execute the file.
+Click "Wróć do strony głównej" to return to the main menu.
+Data Analysis:
+
+Functionality for data analysis is not implemented yet.
+Note:
+    The program assumes you are working on a Windows system.
+
